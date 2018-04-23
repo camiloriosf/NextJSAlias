@@ -1,7 +1,7 @@
 {
   "rules": [
     {
-      "pathname": "/client2",
+      "pathname": "/api/client2",
       "method": ["GET", "POST", "OPTIONS"],
       "dest": "http://localhost:5000"
     },
