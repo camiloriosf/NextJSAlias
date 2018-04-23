@@ -1,0 +1,29 @@
+{
+  "name": "nextjsalias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client1": "next client1 -p 4000",
+    "client1-build": "next build client1",
+    "client1-start": "next start client1 -p 4000",
+    "client2": "next client2 -p 5000",
+    "client2-build": "next build client2",
+    "client2-start": "next start client2 -p 5000",
+    "proxy": "micro-proxy -r rules-dev.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camiloriosf/NextJSAlias.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camiloriosf/NextJSAlias/issues"
+  },
+  "homepage": "https://github.com/camiloriosf/NextJSAlias#readme",
+  "dependencies": {
+    "micro-proxy": "^1.1.0",
+    "next": "^5.1.0"
+  }
+}

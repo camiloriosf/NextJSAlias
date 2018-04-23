@@ -1,0 +1,17 @@
+{
+  "name": "client1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "start": "next start -p 4000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^5.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}

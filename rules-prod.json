@@ -1,0 +1,11 @@
+{
+  "rules": [
+    {
+      "pathname": "/client2",
+      "method": ["GET", "POST", "OPTIONS"],
+      "dest": "https://client2.bittersweet.io"
+    },
+    { "pathname": "/**", "dest": "https://client1.bittersweet.io" },
+    { "dest": "https://client1.bittersweet.io" }
+  ]
+}
